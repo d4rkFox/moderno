@@ -29,13 +29,13 @@ body {
     color: $text;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.container-fluid{
+.container-fluid {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 30px;
@@ -50,7 +50,7 @@ body {
 .title {
     text-align: center;
     color: $bg;
-    font-weight: 700;
+    @include f700;
     font-size: 36px;
     line-height: 60px;
     margin-bottom: 30px;
