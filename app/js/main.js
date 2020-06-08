@@ -11,6 +11,29 @@ $(function () {
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 4,
+        responsive: [
+            {
+              breakpoint: 1900,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+              }
+            },
+            {
+                breakpoint: 1441,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint: 801,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              },
+        ]
     })
 
     $(".js-range-slider").ionRangeSlider({
@@ -44,7 +67,6 @@ $(function () {
             return false;
         });
 
-
     $('.menu__btn').on('click', function(){
         $('.menu__list').slideToggle();
     });
@@ -53,7 +75,7 @@ $(function () {
         $('.header__box').toggleClass('active');
     }); 
 
-    
+    $('input[type="file"], select').styler();
 
 
     var mixer = mixitup(".products__inner-box");
