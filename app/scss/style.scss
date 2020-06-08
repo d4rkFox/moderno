@@ -225,6 +225,7 @@
       border-width: 1px;
       padding: 20px;
       overflow: auto;
+      z-index: 1;
     }
   }
 }
@@ -1743,12 +1744,6 @@ button.icon-sort {
   }
 }
 
-.product-one__aside {}
-
-.aside__item {}
-
-.aside__title {}
-
 .price__box {
   position: relative;
   display: flex;
@@ -1850,8 +1845,6 @@ button.icon-sort {
 .author__avatar {
   margin-right: 14px;
 }
-
-.author__info {}
 
 .author__name {
   font-size: 18px;
@@ -1961,9 +1954,6 @@ button.icon-sort {
 
 
 // start page 404
-.page-404 {}
-
-.container {}
 
 .page-404__wrapper,
 .about__wrapper,
@@ -2038,13 +2028,6 @@ button.icon-sort {
 
 //end page 404
 //start about
-.about {}
-
-.container {}
-
-.about__wrapper {}
-
-.about__head {}
 
 .about__inner {
   padding: 0 50px;
@@ -2074,14 +2057,6 @@ button.icon-sort {
 .contact__inner {
   padding: 35px 40px 15px;
 }
-
-.container {}
-
-.contact__wrapper {}
-
-.contact__head {}
-
-.contact__inner {}
 
 .contact__map {
   margin-bottom: 50px;
@@ -2783,8 +2758,6 @@ button.icon-sort {
   border: 1px solid #dedede;
   height: 100%;
 }
-
-.withdrawals__box {}
 
 .withdrawals__title {
   @include f500;

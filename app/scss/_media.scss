@@ -237,8 +237,7 @@ margin-left: -20px;
     }
 
 
-
-    .icons- .menu__list {
+   .menu__list {
         display: none;
         background-color: $bg;
         position: absolute;
@@ -363,7 +362,9 @@ margin-left: -20px;
     .tutorial__item {
         flex-basis: 100%;
     }
-
+    .products__btn + .products__btn {
+         margin-left: 5px; 
+    }
     .product-page__contant .products__item {
         flex-basis: 100%;
         max-width: 100%;
